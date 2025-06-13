@@ -2,8 +2,6 @@
 
 Este proyecto es un dashboard interactivo diseñado para monitorizar los KPIs de un centro de soporte de usuarios. La aplicación permite visualizar la distribución de agentes, gestionar el alta y baja de agentes, y cambiar su estado entre activo e inactivo. Incluye un modo oscuro para mejorar la experiencia de usuario.
 
-![image](https://github.com/AlexBDominguez/user-support-dashboard/assets/132932375/4a5b4858-a590-449e-8c54-7389146522c7)
-
 
 ## ✨ Características Principales
 
