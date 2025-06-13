@@ -1,0 +1,36 @@
+:root, [data-theme='light'] {
+  --primary-bg: #f4f7fc;
+  --card-bg: #ffffff;
+  --text-color: #333;
+  --header-color: #2c3e50;
+  --kpi-color: #3498db;
+  --active-color: #2ecc71;
+  --inactive-color: #e74c3c;
+  --border-color: #e0e0e0;
+  --shadow: 0 4px 8px rgba(0,0,0,0.1);
+  --button-bg: #3498db;
+  --button-text: #fff;
+  --input-bg: #f0f0f0;
+}
+
+[data-theme='dark'] {
+  --primary-bg: #2c3e50;
+  --card-bg: #34495e;
+  --text-color: #ecf0f1;
+  --header-color: #ffffff;
+  --kpi-color: #5dade2;
+  --border-color: #4a6278;
+  --shadow: 0 4px 8px rgba(0,0,0,0.4);
+  --button-bg: #5dade2;
+  --button-text: #2c3e50;
+  --input-bg: #4a6278;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
